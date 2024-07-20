@@ -4,6 +4,7 @@ import Logo1 from "../../../images/logo.png";
 import Img1 from "../../../images/client-logo-index.png";
 import Call from "../../../images/call-now.gif";
 import What from "../../../images/WhatsApp_Icon_greens.png";
+import { Link } from "react-router-dom";
 
 function Certification() {
   const list = [
@@ -790,14 +791,12 @@ function Certification() {
         </div>
         <div className={CertificateStyle.bar}>
           <ul>
-            {list &&
-              list.map((value, index) => {
-                return (
-                  <React.Fragment>
-                    <a href="#">{value}</a>
-                  </React.Fragment>
-                );
-              })}
+                    <Link to="/home">HOME</Link>
+                    <Link to="/">ABOUT US</Link>
+                    <Link to="/course">COURSES</Link>
+                    <Link to="/">CAREERS</Link>
+                    <Link to="/">TESTIMONIALS</Link>
+                    <Link to="/">CONTACT US</Link>
           </ul>
         </div>
       </div>

@@ -89,21 +89,24 @@
 .ContainerImage{
    margin-left: 120px;
 }
+
+
+
 .footer{
     width: 100%;
-    height: 1400px;
+    height: 100%;
     background-color: #2d2d2d;
 }
 .gridcontainer{
     height: 100%;
     width: 1110px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
    margin-left: 120px;
 }
 .gridcontainer>div{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: auto;
-    height: 280px;
+    height: 250px;
 }
 .gridcontainer {
     display: grid;
@@ -114,11 +117,19 @@
     color: white;
     padding-left: 30px;
     padding-top: 30px;
-    font-size: 15px;
+    font-size: 17px;
+    line-height: 25px;
   }
+
   .grid1>p>i{
     color: #ad2442;
+    margin-left: -22px;
+  }
+  .grid1>h6{
+    margin-left: -22px;
+    font-size: 15px;
   }
   .grid1>h6>span{
+    font-size: 15px;
     color: #2d865a;
   }

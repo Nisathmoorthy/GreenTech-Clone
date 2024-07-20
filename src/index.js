@@ -6,7 +6,8 @@ import Job from "./Core/pages/Job Vacancy/Job";
 import Masterprogram from "./Core/pages/Master Program/Masterprogram";
 import Hostel from "./Core/pages/Hostel/Hostel";
 import Certification from "./Core/pages/Certification/Certification";
-
+import Courses from "./Core/pages/Courses/Courses";
+import Online from "./Core/pages/Online Courses/Onlinecourses";
 
 
 
@@ -22,6 +23,8 @@ function Routeroutlet(){
     <Route path="home" element={<Header/>}/>
     <Route path="certification" element={<Certification />} />
     <Route path="job" element={<Job />} />
+    <Route path="course" element={<Courses/>}/>
+    <Route path="online" element={<Online/>}/>
     <Route path="hostel" element={<Hostel />} />
     <Route path="master" element={<Masterprogram />} />
 

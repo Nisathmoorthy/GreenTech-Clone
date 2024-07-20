@@ -39,7 +39,7 @@ function Header(){
                 <ul>
                     <li className="a"><Link to="/home">HOME</Link></li>
                     <li className="a"><Link to="/certification">Certifications</Link></li>
-                    <li className="a"><a href="#">COURSES  </a>
+                    <li className="a"><Link to="/course">COURSES</Link>
                     <div className={HeaderStyle.dropmenu1}>
                         <ul>
                             <li><a href="#">UI/UX Training</a></li>

@@ -11,6 +11,7 @@ import Study from "../../../images/bed.png";
 import Study1 from "../../../images/building.png";
 import Study2 from "../../../images/food.png";
 import Study3 from "../../../images/study3.png";
+import { Link } from "react-router-dom";
 
 function Hostel() {
   return (
@@ -32,13 +33,13 @@ function Hostel() {
         <div className={HostelStyle.bar}>
           <ul>
             <li className="a">
-              <a href="#">HOME</a>
+              <Link to="/home">HOME</Link>
             </li>
             <li className="a">
               <a href="">ABOUT US</a>
             </li>
             <li className="a">
-              <a href="#">COURSES </a>
+              <Link to="/course">COURSES</Link>
               <div className={HostelStyle.dropmenu1}>
                 <ul>
                   <li>
@@ -108,10 +109,10 @@ function Hostel() {
               <a href="#">TESTIMONIALS</a>
             </li>
             <li className="a">
-              <a href="#">CONTACT US</a>
+              <a href="#">ABOUT US</a>
             </li>
             <li className="a">
-              <a href="#">CONTACT US</a>
+              <Link to="/contact">CONTACT US</Link>
             </li>
           </ul>
         </div>
@@ -131,7 +132,7 @@ function Hostel() {
             <h3>Welcome to Greens womens Hostel in Adyar</h3>
           </div>
           <div className={HostelStyle.box1}>
-            <h4>WHy this ladies hostel? </h4>
+            <h2>Why this ladies hostel? </h2>
             <p>
               Our Hostel is recognized as one of the highly well reputed hostel
               service provider offering various kinds of hostel accommodations
@@ -139,7 +140,7 @@ function Hostel() {
             </p>
           </div>
           <div className={HostelStyle.box2}>
-            <h4>Our Facilities </h4>
+            <h2>Our Facilities </h2>
             <p>
               A/C and non A/C rooms , Airy and well ventilated, Attached toilet
               & bathroom Well furnished rooms with cot, pillow, bed spreads,
@@ -147,7 +148,7 @@ function Hostel() {
             </p>
           </div>
           <div className={HostelStyle.box3}>
-            <h4>Services</h4>
+            <h2>Services</h2>
             <p>
               Hygienic Vegetarian & Non Vegetarian food, Purified drinking
               water, News paper & magazines provided, 24 hours Security, CCTV,
@@ -155,7 +156,7 @@ function Hostel() {
             </p>
           </div>
           <div className={HostelStyle.box4}>
-            <h4>Quick Contact</h4>
+            <h2>Quick Contact</h2>
             <p>
               Address <br />
               11TH CROSS STREET, <br />

@@ -19,10 +19,10 @@ function Masterprogram() {
         <img src={What} className={MasterStyle.what} />
       </div>
       <div className={MasterStyle.menubar}>
-        <div>
+        <div className={MasterStyle.leftText}>
           <p>10% Discount on All Courses</p>
         </div>
-        <div>
+        <div className={MasterStyle.rightText}>
           <p>+91 89399 15572</p>
         </div>
       </div>
@@ -53,7 +53,7 @@ function Masterprogram() {
         </ul>
       </div>
       <div className={MasterStyle.para2}>
-        <h5>Greens Technology Offered Courses</h5>
+        <h2>Greens Technology Offered Courses</h2>
         <p>
           Greens Technology Institute offers a wide range of{" "}
           <b>Software Training and Placement in Chennai</b> of varied nature.
