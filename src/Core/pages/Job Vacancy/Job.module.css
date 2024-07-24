@@ -133,3 +133,8 @@
     font-size: 15px;
     color: #2d865a;
   }
+  .button2{
+    background-color: brown;
+    padding: 5px;
+    color: white;
+  }

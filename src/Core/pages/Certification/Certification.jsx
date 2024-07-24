@@ -792,11 +792,11 @@ function Certification() {
         <div className={CertificateStyle.bar}>
           <ul>
                     <Link to="/home">HOME</Link>
-                    <Link to="/">ABOUT US</Link>
+                    <Link to="/about">ABOUT US</Link>
                     <Link to="/course">COURSES</Link>
-                    <Link to="/">CAREERS</Link>
-                    <Link to="/">TESTIMONIALS</Link>
-                    <Link to="/">CONTACT US</Link>
+                    <Link to="/careers">CAREERS</Link>
+                    <Link to="/test">TESTIMONIALS</Link>
+                    <Link to="/contact">CONTACT US</Link>
           </ul>
         </div>
       </div>

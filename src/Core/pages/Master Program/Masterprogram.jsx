@@ -10,6 +10,7 @@ import DotNet from "../../../images/dot-Net-logo.png";
 import Hadoop from "../../../images/Hadoop-Training-in-chennai.png";
 import Placement from "../../../images/greens-technology-placement-process.jpg"
 import Location from "../../../images/Robotic-Process-Automation.png"
+import { Link } from "react-router-dom";
 
 function Masterprogram() {
   return (
@@ -46,9 +47,7 @@ function Masterprogram() {
             <a href="#">All Branches</a>
           </li>
           <li>
-            <a href="#">
-              <button className={MasterStyle.button2}>Contact Us</button>
-            </a>
+          <Link to="/contact"><button className={MasterStyle.button2}>CONTACT US</button></Link>     
           </li>
         </ul>
       </div>

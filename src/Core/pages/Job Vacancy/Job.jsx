@@ -3,6 +3,7 @@ import Logo from '../../../images/logo.png'
 import Call from "../../../images/call-now.gif"
 import What from "../../../images/WhatsApp_Icon_greens.png"
 import containerImage from '../../../images/job-placement1.jpeg'
+import { Link } from 'react-router-dom'
 
 function Job(){
 
@@ -23,7 +24,7 @@ function Job(){
                 <li><a href="#">Corporate Training</a></li>
                 <li><a href="#">All Courses</a></li>
                 <li><a href="#">All Branches</a></li>
-                <li><button className={JobStyle.button2}>Contact Us</button></li>
+                <li><Link to="/contact"><button className={JobStyle.button2}>CONTACT US</button></Link>     </li>
             </ul>
         </div>
         <div className={JobStyle.ContainerImage}>

@@ -9,6 +9,9 @@ import Certification from "./Core/pages/Certification/Certification";
 import Courses from "./Core/pages/Courses/Courses";
 import Online from "./Core/pages/Online Courses/Onlinecourses";
 import Contact from "./Core/pages/Contact us/Contact";
+import About from "./Core/pages/About us/About";
+import Test from "./Core/pages/Testimonials/Test.jsx"
+
 
 
 
@@ -27,6 +30,8 @@ function Routeroutlet(){
     <Route path="contact" element={<Contact/>}/>
     <Route path="online" element={<Online/>}/>
     <Route path="hostel" element={<Hostel />} />
+    <Route path="about" element={<About />} />
+    <Route path="test" element={<Test />} />
     <Route path="master" element={<Masterprogram />} />
 
     </Routes>
