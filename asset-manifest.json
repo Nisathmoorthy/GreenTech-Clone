@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/GreenTech-Clone/static/css/main.a44b252e.css",
+    "main.js": "/GreenTech-Clone/static/js/main.49664592.js",
+    "static/media/greenstechnologies-siruseri-branch.mp4": "/GreenTech-Clone/static/media/greenstechnologies-siruseri-branch.deb0e3744c6cb1ea87a6.mp4",
+    "static/media/greenstechnologies-video.mp4": "/GreenTech-Clone/static/media/greenstechnologies-video.3b23e5ad1d820264664c.mp4",
+    "static/media/top-small-banner.png": "/GreenTech-Clone/static/media/top-small-banner.a7b50fc07edadc1eaea4.png",
+    "static/media/food.png": "/GreenTech-Clone/static/media/food.db5312318ef98d52ca50.png",
+    "static/media/Location.png": "/GreenTech-Clone/static/media/Location.e30a1bfbeb5efc027340.png",
+    "static/media/call-now.gif": "/GreenTech-Clone/static/media/call-now.c15715582658259d0279.gif",
+    "static/media/bed.png": "/GreenTech-Clone/static/media/bed.8443a1da870399b48ec6.png",
+    "static/media/study3.png": "/GreenTech-Clone/static/media/study3.8d238a15a131b99ecf00.png",
+    "static/media/hostel.jpg": "/GreenTech-Clone/static/media/hostel.7426438e4e20c22972dc.jpg",
+    "static/media/building.png": "/GreenTech-Clone/static/media/building.ff40813fa291f7284d88.png",
+    "static/media/job-placement1.jpeg": "/GreenTech-Clone/static/media/job-placement1.764029f12bcd2981bb3b.jpeg",
+    "static/media/greens-technology-placement-process.jpg": "/GreenTech-Clone/static/media/greens-technology-placement-process.722fef0c1da8f9e4e713.jpg",
+    "static/media/WhatsApp_Icon_greens.png": "/GreenTech-Clone/static/media/WhatsApp_Icon_greens.59ca44f6b667ee762350.png",
+    "static/media/banner_1.jpg": "/GreenTech-Clone/static/media/banner_1.d028678ac8cefd0ce492.jpg",
+    "static/media/Robotic-Process-Automation.png": "/GreenTech-Clone/static/media/Robotic-Process-Automation.fb4eb062466045eac17f.png",
+    "static/media/Hadoop-Training-in-chennai.png": "/GreenTech-Clone/static/media/Hadoop-Training-in-chennai.ed7f462a40f960826d77.png",
+    "static/media/client-logo-index.png": "/GreenTech-Clone/static/media/client-logo-index.bdde896f28de71a965b1.png",
+    "static/media/dot-Net-logo.png": "/GreenTech-Clone/static/media/dot-Net-logo.891b352b095edb1db721.png",
+    "static/media/AWS-Training-Chennai.png": "/GreenTech-Clone/static/media/AWS-Training-Chennai.1a10dc456cc0447b965a.png",
+    "static/media/Advanced-Excel-Training.png": "/GreenTech-Clone/static/media/Advanced-Excel-Training.5c812bb7e8b657304530.png",
+    "static/media/android.png": "/GreenTech-Clone/static/media/android.cd63ddc58081e063d466.png",
+    "static/media/query.jpg.jpg": "/GreenTech-Clone/static/media/query.jpg.123a6bded01521700165.jpg",
+    "static/media/c-c-plus-plus.png": "/GreenTech-Clone/static/media/c-c-plus-plus.e923fa03571ee87393b8.png",
+    "index.html": "/GreenTech-Clone/index.html",
+    "main.a44b252e.css.map": "/GreenTech-Clone/static/css/main.a44b252e.css.map",
+    "main.49664592.js.map": "/GreenTech-Clone/static/js/main.49664592.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a44b252e.css",
+    "static/js/main.49664592.js"
+  ]
+}
